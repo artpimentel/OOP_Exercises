@@ -4,7 +4,7 @@ import org.example.Executable;
 
 import java.util.Scanner;
 
-class Product {
+class Product4 {
     String name;
     double value;
     int quantity;
@@ -30,7 +30,7 @@ public class Exercise4 implements Executable {
         System.out.print("Quantos quer comprar?");
         quantity = teclado.nextInt();
 
-        Product product = new Product();
+        Product4 product = new Product4();
         product.name = name;
         product.value = value;
         product.quantity = quantity;
